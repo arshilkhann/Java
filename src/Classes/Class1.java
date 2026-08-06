@@ -21,10 +21,10 @@ public class Class1 {
 class Demo {
     String name ;
     public void walk(){
-        System.out.println("Walking");
+        System.out.println(name+" Walking");
     }
 
     public void run(){
-        System.out.println("Running");
+        System.out.println(name+" Running");
     }
 }
