@@ -20,11 +20,11 @@ public class Class1 {
 
 class Demo {
     String name ;
-    public static void walk(){
+    public void walk(){
         System.out.println("Walking");
     }
 
-    public static void run(){
+    public void run(){
         System.out.println("Running");
     }
 }
