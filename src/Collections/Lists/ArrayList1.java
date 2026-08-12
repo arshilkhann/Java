@@ -40,11 +40,11 @@ public class ArrayList1 {
 
         //for removing elemnt from list we use
 
-        // list.remove(Object)->for removing object
+        // list.remove(Object)-> for removing single instance of particular element from collection if it is present
         list.remove(Integer.valueOf(10));
         System.out.println(list); //remove 10  [20, 30]
 
-        // list.remove(index)->for removing particular element
+        // list.remove(index)->for removing an element from collection through its index
         list.remove(1);
         System.out.println(list); //remove 30  [20]
 
@@ -52,5 +52,16 @@ public class ArrayList1 {
         //list.removeAll()-> remove All list elements
         list.removeAll(list);
         System.out.println(list); //remove all elements []
+
+
+        //More Collection Interface Methods
+
+        // list.isEmpty(); -> returns true if empty otherwise false
+        // list.containsAll( collection c ) -> returns true if the collection contains all element from the specified collection c
+        // list.addAll(collection c) -> Adds all element from the specified collection c to the collection
+        // list.removeAll(collection c) -> Removes all element from the collection that are also contains in specified collection c
+        // list.retainAll(collection c) -> Remove all element from the collection that are not present in specified collection c
+        // void clear() -> Remove all element from the collection
+        // list.toArray() -> Returns an Array containing all elements in the collection
     }
 }
