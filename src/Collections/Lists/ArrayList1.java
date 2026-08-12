@@ -63,5 +63,7 @@ public class ArrayList1 {
         // list.retainAll(collection c) -> Remove all element from the collection that are not present in specified collection c
         // void clear() -> Remove all element from the collection
         // list.toArray() -> Returns an Array containing all elements in the collection
+
+        // NOTE -> collection c will be of same type as list. "<Integer>".
     }
 }
