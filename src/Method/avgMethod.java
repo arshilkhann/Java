@@ -13,6 +13,8 @@ public class avgMethod {
         float num2 = sc.nextFloat();
 
         System.out.println("The sum of two Numbers are : "+avg(num1,num2));
+
+        sc.close();
     }
 
     static float avg(float a , float b){

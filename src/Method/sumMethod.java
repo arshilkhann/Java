@@ -1,5 +1,4 @@
 package Method;
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class sumMethod {
@@ -14,6 +13,8 @@ public class sumMethod {
 
         System.out.println("The sum of two Numbers are : "+sum(num1,num2));
 
+
+        sc.close();
     }
 
     static int sum(int a  , int b){

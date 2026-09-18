@@ -33,6 +33,8 @@ public class calciMethod {
             default:
                 System.out.print("Invalid choice , choose from (+ , - , / , *) ");
         }
+
+        sc.close();
     }
 
     static float sum(float a , float b){
